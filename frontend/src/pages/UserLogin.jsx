@@ -39,7 +39,6 @@ export default function UserLogin() {
   return (
     <div className="auth-wrap user-login">
       <div className="auth-card user-card">
-        <div className="role-badge user">User</div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20 }}>
           <div className="glyph" style={{ background: '#2a2520', color: '#c9a96a', width: 44, height: 44, borderRadius: 6, display: 'grid', placeItems: 'center', fontSize: 11, fontWeight: 700, border: '1px solid #c9a96a', letterSpacing: '1.2px' }}>A</div>
           <div>
@@ -63,7 +62,7 @@ export default function UserLogin() {
           </button>
         </form>
         <div className="auth-link">
-          New resident? <Link to="/register">Register here</Link> &nbsp;|&nbsp; <Link to="/login">← Back to Role Selection</Link>
+          New resident? <Link to="/register">Register here</Link> &nbsp;|&nbsp; <Link to="/">← Back to Home</Link>
         </div>
       </div>
     </div>

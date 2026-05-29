@@ -957,13 +957,8 @@ td.num { text-align: right; font-family: var(--mono); font-variant-numeric: tabu
 }
 .home-foot-links a:hover { color: var(--accent-bright); }
 
-/* role grid extended (4 tiles) + secretary/president cards */
+/* role grid extended (4 tiles) — kept for backwards compatibility */
 .role-grid.role-grid-4 { grid-template-columns: repeat(4, 1fr); }
-
-.role-card.secretary { border-color: #0066cc; background: #f0f7ff; }
-.role-card.secretary:hover { border-color: #0066cc; box-shadow: 0 12px 32px rgba(0,102,204,.15); }
-.role-card.president { border-color: #7c3aed; background: #f5f0ff; }
-.role-card.president:hover { border-color: #7c3aed; box-shadow: 0 12px 32px rgba(124,58,237,.18); }
 
 .role-foot {
   text-align: center; font-size: 13px; color: var(--ink-soft); margin-top: 30px;

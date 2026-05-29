@@ -16,7 +16,7 @@ export default function LoginHome() {
 
         <h2 style={{ textAlign: 'center', marginBottom: 28, color: '#333' }}>Select Your Role</h2>
 
-        <div className="role-grid role-grid-4">
+        <div className="role-grid">
           <button
             className="role-card admin"
             onClick={() => nav('/login-admin')}
@@ -45,16 +45,6 @@ export default function LoginHome() {
             <h3>President</h3>
             <p>Oversight Access</p>
             <span className="role-desc">Society leadership view</span>
-          </button>
-
-          <button
-            className="role-card user"
-            onClick={() => nav('/login-user')}
-          >
-            <div className="role-icon">&#x1F3E0;</div>
-            <h3>User</h3>
-            <p>Resident Access</p>
-            <span className="role-desc">View your dues &amp; payments</span>
           </button>
         </div>
 
